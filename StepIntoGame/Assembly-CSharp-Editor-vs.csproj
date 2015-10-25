@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{DAC03117-76FC-52F6-2FBE-B4A835A08185}</ProjectGuid>
+	<ProjectGuid>{33D5CCC0-38FB-8AEA-5D9C-31ADC9C0EF63}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -179,10 +179,7 @@
      <None Include="Assets\AGF_SceneLoader\AGF_Assets\!_AGF_Specific_Data_!\AGF_Materials_Shaders_And_Textures\Shaders\AGF_Diffuse_Always_Visible.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>/Users/ionvrix/Unity/demo_003/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
- <Reference Include="Assembly-UnityScript-Editor-firstpass">
- <HintPath>/Users/ionvrix/Unity/demo_003/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
+ <HintPath>/Users/ionvrix/Github/StepIntoGame/StepIntoGame/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -232,11 +229,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{F5D672B3-5AF5-DFB9-9C96-86C07033BE32}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp-vs.csproj">
-      <Project>{C1B4637D-9EE2-D623-F01D-F466BD275FFE}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp-Editor-firstpass-vs.csproj">
-      <Project>{22AAB9AC-7F73-C32B-EAB3-083F6CCE7101}</Project>      <Name>Assembly-CSharp-Editor-firstpass-vs</Name>    </ProjectReference>
+      <Project>{2DDDEB43-221D-AB5F-2461-9E86E6F2D5CF}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

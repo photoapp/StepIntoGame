@@ -113,13 +113,13 @@ public class Main : MonoBehaviour {
 		}
 		
 		if ( t.gameObject.GetComponent(componentType) == null ){
-			UnityEngineInternal.APIUpdaterRuntimeServices.AddComponent(t.gameObject, "Assets/AGF_SceneLoader/AGF_Assets/Scripts/Library/Main.cs (116,4)", componentType);
+			t.gameObject.AddComponent<Main>();
 		}
 	}
 	
 	public static void AddComponentIfMissing( Transform t, string componentType ){
 		if ( t.gameObject.GetComponent(componentType) == null ){
-			UnityEngineInternal.APIUpdaterRuntimeServices.AddComponent(t.gameObject, "Assets/AGF_SceneLoader/AGF_Assets/Scripts/Library/Main.cs (122,4)", componentType);
+			t.gameObject.AddComponent<Main>();
 		}	
 	}
 	
