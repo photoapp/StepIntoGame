@@ -1,0 +1,27 @@
+NEW FEATURES!!!!
+The ability to load OBJ files is a new feature. Please do not combine 'Custom' (OBJ) objects with objects from 
+an AGF asset pack in the same saved prefab. Loading of scenes with combinations of object types in prefabs is 
+not supported at this time. This restriction will not be permanent as we are working on fixing it ASAP.
+
+The user loaded textures for the terrain work.
+
+The user loaded textures for the vegetation work.
+
+The AGF Tri-Planar Terrain shader will only work with the DirectX3D 11 turned OFF.. Sorry.. Thats just the way it is..
+
+The Locked Asset pack issue has been fixed. AGF should skip locked asset packs automatically.
+
+All other AGF scene data should be loading correctly.
+
+The new AGF Underwater fog and Underwater Lighting settings are not implemented yet. 
+We will get to the underwwated fog as soon as we get some sleep and after Alex and his lovly fiance' is back from GEEK KON. 
+Yes he actually goes to that show with his soon to be bride she is a rock star!!!!
+
+If you experience any issues otherwise, please post the issue on the AGF testing forum. 
+If you have any issue with this on Mac please mail mny son Gage at gage @heavyh20.com because he said he tested all of it.. 
+
+http://agftester.boardhost.com/index.php
+
+If you need to get ahold of me "Matt" pesonally you can reach me at Skype axisgamefactory
+
+Thank you for your support!!
